@@ -1,0 +1,22 @@
+.bg-dark{
+    padding: 0.5em 5em;
+}
+
+.display-4{
+    margin-top: 50px;
+}
+
+.jumbotron .btn{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.jumbotron{
+    color: white;
+}
+
+body{
+    background: url("pexels.jpg") center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

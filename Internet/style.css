@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    background: linear-gradient(rgb(228,228,228), rgb(255,255,255));
+    min-height: 850px;
+    width: 1250px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.title h1{
+    font-weight: 500;
+    background: white;
+    height: 80px;
+    padding: 18px 0 0 100px;
+    font-size: 3em;
+    color: rgb(71,71,71);
+}
+
+.title h1 span{
+    color: rgb(43,106,160);
+}
+
+.title h2{
+    background: linear-gradient(rgb(43,106,160), rgb(81,130,172), rgb(43,106,160));
+    height: 70px;
+    padding: 19px 0 0 20px;
+    font-size: 2em;
+    color: white;
+    font-weight: 400;
+}
+
+.logo{
+    position: absolute;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.net-container{
+    margin-top: 30px;
+    position: absolute;
+    width: 200px;
+    height: 205px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.301);
+}
+
+.net-container h4{
+    font-size: 18px;
+    margin-bottom: 13px;
+}
+
+.net-container h4 span{
+    color: rgb(230, 34, 27);
+}
+
+.net-container p{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.net-container a{
+    color: white;
+    text-decoration: none;
+}
+
+.net-container p span{
+    color: rgb(43,106,160);
+}
+
+.btn-watch{
+    margin-top: 18px;
+    padding-top: 8px;
+    text-align: center;
+    background: linear-gradient(rgb(81,130,172), rgb(43,106,160));
+    box-shadow: rgba(0, 0, 0, 0.555) 3px 3px;
+    height: 35px;
+    border-radius: 6px;
+}
+
+.btn-more{
+    margin-top: 6px;
+    padding-top: 8px;
+    text-align: center;
+    background: linear-gradient(rgb(237,184,109), rgb(239,118,0));
+    box-shadow: rgba(0, 0, 0, 0.555) 3px 3px;
+    height: 35px;
+    border-radius: 6px;
+}
+
+.ads-container{
+    background: url('images/ad_background.png');
+    position: absolute;
+    top: 410px;
+    width: 200px;
+    height: 320px;
+    text-align: center;
+    
+}
+
+.ads-container img{
+    width: 100px;
+}
+
+.ads-container h2{
+    margin-top: 20px;
+    color: white;
+    font-weight: 100;
+}
+
+.learn-btn{
+    margin: 8px 0 0 14px;
+    padding-top: 6px;
+    text-align: center;
+    background: linear-gradient(rgb(114,207,223), rgb(52,200,223), rgb(114,207,223));
+    box-shadow: rgba(0, 0, 0, 0.555) 3px 3px;
+    height: 30px;
+    width: 170px;
+    border-radius: 6px;
+}
+
+.learn-btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.phone-container{
+    margin-left:250px;
+    border-bottom: 1px solid black;
+    height: 100px;
+}
+
+.phone-container img{
+    margin: 10px 0 0 10px;
+    width: 25px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.phone-container h5{
+    display: inline-block;
+    font-size: 18px;
+    color: rgb(43,106,160);
+    vertical-align: top;
+    margin-top: 15px;
+}
+
+.number-container{
+    display: inline-block;
+    margin-left: 607px;
+    padding:0 25px 0 0;
+}
+
+.number-container img{
+    display: inline-block;
+    width: 50px;
+    margin: 15px 10px 0 0;
+}
+
+.num-cont{
+    display: inline-block;
+}
+
+.num-cont h2{
+    color: rgb(28,197,224);
+    font-size: 35px;
+}
+
+.num-cont p{
+    margin-left: 8px;
+    color: rgb(24, 24, 24);
+}
+
+.content{
+    height: 520px;
+    margin-left: 250px;
+}
+
+.content h3{
+    color: rgb(48,109,162);
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.client-server-logo{
+    text-align: center;
+}
+
+.client-server-logo img{
+    width: 380px;
+}
+
+.content a{
+    color: rgb(13, 186, 212);
+    text-decoration: none;
+}
+
+.content li{
+    margin: 10px 15px 10px 40px;
+    font-size:18px;
+}
+
+.content p{
+    font-size:18px;
+}
+
+.content p span{
+    font-weight: 600;
+}
+
+.stack-container{
+    margin-top: 15px;
+    margin-left: 250px;
+    border: 6px solid rgb(58,115,164);
+    padding: 15px;
+}
+
+.stack-container img{
+    width: 150px;
+    display: inline-block;
+}
+
+.stack-paragraph{
+    display: inline-block;
+    vertical-align: top;
+    width: 800px;
+}
+
+.stack-paragraph h3{
+    color: rgb(48, 109, 162);
+    font-size: 25px;
+    margin: 5px 10px 5px 5px;
+}
+
+.stack-paragraph p{
+    font-size: 18px;
+    margin: 10px 10px 5px 5px;
+}
+
+.stack-paragraph p a{
+    text-decoration: none;
+    color:rgb(13, 186, 212);
+}
