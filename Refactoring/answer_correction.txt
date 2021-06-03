@@ -1,0 +1,54 @@
+REFACTORING
+For this assignment, you need to:
+1.Figure out which line numbers from the original HTML file are determined by each bad practice. List your answers in a new text file “answers.txt”. 
+
+1. Too much wrapping tag = line number 47 and 51
+=> CORRECT!
+
+2. Using inline css = line number 52
+=> Line 52 is not an inline css. Inline css are known to be used as attribute in a tag. Look for line 55-66 "style" attribute in <label>.
+
+3. Inappropriate naming = line number 48,49,52,67, and 68
+=> CORRECT! Line 67 and 68 is too much generic name. 
+
+4. Wrong indentation in css = line number 13, 17, and 20
+=> You will notice that in css, there should be indentation for parent-child relationship of tags.
+Ex. 
+label {
+  display:block;
+}
+  label input {
+    margin-bottom: 10px;
+    margin-right: 5px;
+  }
+You will find more of this in the rest of the code.
+
+
+5. Not utilizing semantic tag = line number 44 and 46
+=> CORRECT!
+
+6. Repeated style = line number 26 and 33
+=> CORRECT! 
+
+7. Redundant display of a block element = line number 55 to 66
+=> This can be true. But there is one more tag that has natural block display that still styled to be display:block. 
+Let me know if you figured it now.
+
+8. Using too many classes over and over again = line number 48, 49 and 52
+=> CORRECT!
+
+9. Using html tag that dictates style = line 16
+=> Wrong. Refer to https://learn.village88.com/m/34/959/4760 Best Practice #7.
+Once you figured it out now, remove it and make sure that the output in browser is same with expected output.
+
+10. Styling an element using tag's attribute/s = line number 55 to 66
+=> This can be true. However, there is one more html tag. 
+Once you figured it out, remove it and make sure that the output in browser is same with expected output.
+
+11. Unordered import of stylesheet = <line numbers>
+=> Read about https://learn.village88.com/m/34/959/4756 Normalize css.
+Once you figured its purpose, think of how will be the arrangement of import in your <head> tag. 
+Should the normalize comes first before the style.css? or reverse?
+
+12. Using Internal css = line number 4 to 39
+=> CORRECT

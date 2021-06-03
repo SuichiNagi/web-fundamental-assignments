@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  background: rgb(247, 247, 247);
+  padding: 15px 15px 10px;
+}
+
+header h1 {
+  display: inline;
+  font-family: cursive;
+  font-weight: 900;
+}
+
+header p {
+  margin-left: 430px;
+  display: inline;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.content {
+  background: linear-gradient(rgb(29, 13, 17), rgb(111, 89, 100), rgb(29, 13, 17));
+  padding: 25px;
+}
+
+.content>img {
+  width: 400px;
+  border: 5px solid rgb(247, 247, 247);
+}
+
+.about {
+  margin-left: 30px;
+  width: 485px;
+  height: 267px;
+  background: rgb(235, 228, 235);
+  display: inline-block;
+  vertical-align: top;
+}
+
+.about h2 {
+  background: linear-gradient(rgb(174, 174, 178),
+      rgb(136, 134, 148),
+      rgb(174, 174, 178));
+  padding: 10px;
+  font-size: 1.3em;
+  color: white;
+}
+
+.about p {
+  padding: 10px;
+}
+
+.about a {
+  padding: 10px;
+  color: black;
+}
+
+.middle {
+  margin-top: 20px;
+  height: 590px;
+}
+
+.card {
+  background: linear-gradient(to right, rgb(254, 253, 254), rgb(219, 205, 218));
+  width: 290px;
+  display: inline-block;
+  vertical-align: top;
+  height: 100%;
+}
+
+.center {
+  margin: 0 20px;
+}
+
+.card-con {
+  height: 385px;
+}
+
+.card-con h2 {
+  background: linear-gradient(rgb(174, 174, 178), rgb(136, 134, 148), rgb(174, 174, 178));
+  padding: 10px;
+  font-size: 1.3em;
+  color: white;
+}
+
+.card-con img {
+  width: 290px;
+}
+
+.card-con p {
+  font-size: 15px;
+  text-align: justify;
+  padding: 5px 8px 0;
+  margin-bottom: 15px;
+}
+
+.technologies h5 {
+  background: linear-gradient(rgb(174, 174, 178), rgb(136, 134, 148), rgb(174, 174, 178));
+  padding: 10px;
+  font-size: 1em;
+  color: white;
+}
+
+.tech-stack {
+  padding: 5px 5px 0px;
+}
+
+.tech-stack img {
+  width: 40px;
+  margin: 6px;
+}
+
+.technologies .link-a{
+  display: block;
+  text-align: center;
+}
+
+.technologies a{
+  cursor: pointer;
+  background: rgb(64, 125, 97);
+  padding: 5px;
+  border-radius: 8px;
+  color: white;
+  display: inline-block;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.151);
+  text-decoration: none;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background: rgb(248, 248, 248);
+}
+
+.footer .link {
+  margin-top: 15px;
+}
+
+.footer img {
+  margin-right: 5px;
+  width: 20px;
+  vertical-align: middle;
+}
+
+.footer a {
+  color: black;
+}
+
+@media only screen and ( max-width: 480px){
+  .container{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+    header p{
+      display: none;
+    }
+    .content{
+      width: 100%;
+      padding: 10px;
+      height: 1900px;
+    }
+
+    .content>img{
+      display: none;
+    }
+    .about{
+      margin: 0;
+      width: 100%;
+      height: 290px;
+      font-size: 14px;
+    }
+
+  .card{
+    width: 100%;
+    height: 85%;
+    margin: 10px 0;
+  }
+    .card-con{
+      height: 340px;
+    }
+    .card-con img {
+      width: 100%;
+    }
+    .card-con p{
+      font-size: 12px;
+    }
+    .technologies a{
+      width: 100%;
+    }
+    .tech-stack img{
+      width: 25px;
+    }
+
+  .footer a{
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 481px){
+  header p{
+    display: none;
+  }
+
+  .content{
+    text-align: center;
+    padding: 0;
+    height: 2135px;
+  }
+  .content>img{
+    width: 40%;
+    height: 260px;
+    margin: 5px;  
+  }
+
+  .about{
+    width: 56%;
+    font-size: 13px;
+    margin: 5px 0 0;
+  }
+  .card{
+    width: 75%;
+    margin: 10px 0;
+  }
+  .card-con img{
+    width: 85%;
+  }
+  .card-con p{
+    font-size: 14px;
+    padding: 5px 35px 0;
+  }
+  .tech-stack{
+    padding: 40px 5px 0px;
+  }
+}
+
+@media only screen and (min-width: 1023px){
+  header {
+    text-align: center;
+  } 
+  
+  header p {
+    display: inline;
+  }
+  
+  .content {
+    height: 935px;
+  }
+  
+  .content>img {
+    width: 400px;
+  }
+  
+  .about {
+    margin-left: 30px;
+    width: 485px;
+  }
+  
+  .card {
+    width: 290px;
+    margin: 0;
+  }
+  
+  .center {
+    margin: 0 20px;
+  }
+  
+  .tech-stack {
+    padding: 5px 5px 0px;
+  }
+}

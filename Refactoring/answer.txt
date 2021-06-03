@@ -1,0 +1,27 @@
+REFACTORING
+For this assignment, you need to:
+1.Figure out which line numbers from the original HTML file are determined by each bad practice. List your answers in a new text file “answers.txt”. 
+
+Too much wrapping tag = line number 47 and 51
+
+Using inline css = line number 52
+
+Inappropriate naming = line number 48,49,52,67, and 68
+
+Wrong indentation in css = line number 13, 17, and 20
+
+Not utilizing semantic tag = line number 44 and 46
+
+Repeated style = line number 26 and 33
+
+Redundant display of a block element = line number 55 to 66
+
+Using too many classes over and over again = line number 48, 49 and 52
+
+Using html tag that dictates style = line 16
+
+Styling an element using tag's attribute/s = line number 55 to 66
+
+Unordered import of stylesheet = <line numbers>
+
+Using Internal css = line number 4 to 39
